@@ -1,0 +1,4 @@
+пусть [ammoCount, setAmmoCount] = useRecoilState (ammoState);
+использоватьЭффект(() => {
+  setAmmoCount (количество патронов - (количество боеприпасов * 0,88));
+}, [количество патронов])0)}
